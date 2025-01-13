@@ -24,7 +24,7 @@ public class RagConsoleApplication implements CommandLineRunner {
     private final VectorStore vectorStore;
     private final Advisor retrievalAugmentationAdvisor;
 
-    public RagConsoleApplication(@Value("${app.similarity-threshold}") double similarityThreshold, ChatModel chatModel, VectorStore vectorStore) {
+    public RagConsoleApplication(@Value("${app.similarity-threshold:0.75}") double similarityThreshold, ChatModel chatModel, VectorStore vectorStore) {
         this.similarityThreshold = similarityThreshold;
         this.chatModel = chatModel;
         this.chatClient = ChatClient.builder(chatModel).build();
