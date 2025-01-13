@@ -39,7 +39,7 @@ The processing of these documents entirely relies on Spring AI capabilities. The
 
 ### How to use
 
-- Start database
+- Start the database
 ```shell
 docker run -it --rm --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres pgvector/pgvector:pg17
 ```
