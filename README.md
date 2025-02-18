@@ -1,6 +1,6 @@
 # A RAG app powered by JobRunr
-
-This repository provides a working RAG (retrieval-augmented generation) app powered by JobRunr and [Spring AI](https://spring.io/projects/spring-ai).
+This repository is a companion code example for the blog post [Building Local LLM Systems: RAG Implementation with JobRunr and Spring AI](https://www.jobrunr.io/en/blog/efficient-job-scheduling-for-rag/). 
+The blog post walks through the challenges of building RAG workflows and demonstrates how JobRunr streamlines the process of keeping embeddings up to date.
 
 RAG helps you enhance the accuracy of large language models (LLMs) by providing the AI with the relevant domain knowledge at query time. This is made easy by 
 Spring AI. Thanks to the features the library provides, Java developers can connect their app to the most popular LLMs models.
